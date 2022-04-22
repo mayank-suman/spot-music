@@ -9,7 +9,7 @@ module.exports = merge(common, {
   module: {
     rules: [
       {
-        test: /\.jsx?$/,
+        test: /\.(tsx?|jsx?)?$/,
         exclude: /node_modules\//,
         use: [
           {
@@ -27,5 +27,6 @@ module.exports = merge(common, {
     contentBase: './public',
     contentBasePublicPath: '/assets',
     hot: true,
+    port: 3000,
   },
 });

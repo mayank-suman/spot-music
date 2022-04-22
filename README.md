@@ -1,1 +1,1 @@
-# webpack 5 react boilerplate
+# Spotify clone, music streaming application

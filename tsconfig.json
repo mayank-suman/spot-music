@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "jsx": "react-jsx",
+    "module": "CommonJS",
+    "target": "ES6",
+    "strict": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["es2019", "DOM"],
+    "allowJs": true
+  },
+  "paths": {},
+  "exclude": ["node_modules", "dist"]
+}
